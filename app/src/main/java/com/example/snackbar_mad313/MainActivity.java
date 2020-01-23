@@ -25,18 +25,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-               /* Snackbar snb = Snackbar.make(findViewById(R.id.myView),"Done !",Snackbar.LENGTH_LONG);
-                snb.show();*/
+                Snackbar snb = Snackbar.make(findViewById(R.id.myView),"Done !",Snackbar.LENGTH_LONG);
+                snb.show();
 
 
-               Snackbar snb = Snackbar.make(findViewById(R.id.myView),"Action  Snackbar!",Snackbar.LENGTH_INDEFINITE).setAction("Retry!", new View.OnClickListener() {
+             /*  Snackbar snb = Snackbar.make(findViewById(R.id.myView),"Action  Snackbar!",Snackbar.LENGTH_INDEFINITE).setAction("Retry!", new View.OnClickListener() {
                    @Override
                    public void onClick(View v) {
                        Toast.makeText(getApplicationContext(),"Snackbart Toast",Toast.LENGTH_LONG).show();
                    }
                });
 
-               snb.show();
+               snb.show();*/
 
             }
         });
